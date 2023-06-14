@@ -169,4 +169,42 @@ function comentarNoticia(noticia, comentario) {
     h4Comentarios.textContent = "Comentários";
     }
 
-    // Anexando o elemento
+    // Anexando o elemento h4 ao elemento div dos comentários
+    divComentarios.appendChild(h4Comentarios);
+
+    // Percorrendo o array de comentários da notícia e criando os elementos p para cada comentário
+    for (var i = 0; i < noticia.comentarios.length; i++) {
+        var comentario = noticia.comentarios[i];
+        var pComentario = document.createElement("p");
+        pComentario.textContent = comentario;
+        // Anexando o elemento p ao elemento div dos comentários
+        divComentarios.appendChild(pComentario);
+    }
+
+    // Anexando o elemento div dos comentários ao elemento div da notícia
+    divNoticia.appendChild(divComentarios);
+
+// Definindo uma função para buscar uma notícia por palavra-chave
+function buscarNoticia() {
+    // Selecionando o elemento input que contém a palavra-chave digitada pelo usuário
+    var inputBusca = document.querySelector(".input-busca");
+
+    // Obtendo o valor da palavra-chave
+    var palavra = inputBusca.value.toLowerCase();
+
+    // Verificando se a palavra-chave é válida
+    if (palavra) {
+        // Se for válida, chama a função de filtrar as notícias por palavra-chave
+        var noticiasFiltradas = filtrarNoticias(palavra);
+        // Chama a função de exibir as notícias filtradas na página
+        exibirNoticias(noticiasFiltradas);
+    } else {
+        // Se não for válida, mostra um alerta ao usuário
+        alert("Digite uma palavra-chave válida.");
+    }
+}
+
+// Chamando a função de exibir as notícias na página ao carregar o documento
+document.addEventListener("DOMContentLoaded", function() {
+    exibirNoticias(noticias);
+});
