@@ -167,5 +167,6 @@ function comentarNoticia(noticia, comentario) {
     // Criando o elemento h4 que vai conter o título dos comentários
     var h4Comentarios = document.createElement("h4");
     h4Comentarios.textContent = "Comentários";
+    }
 
     // Anexando o elemento
