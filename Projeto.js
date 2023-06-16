@@ -52,6 +52,11 @@ function criarNoticia(noticia) {
     divCategoria.classList.add("categoria-noticia");
     divCategoria.classList.add(noticia.categoria.toLowerCase());
 
+    // Criando o elemento div que vai conter os comentários da notícia
+    var divComentarios = document.createElement("div");
+    divComentarios.classList.add("comentarios-noticia");
+    divComentarios.classList = noticia.comentario;
+
     // Criando o elemento span que vai conter o nome da categoria da notícia
     var spanCategoria = document.createElement("span");
     spanCategoria.textContent = noticia.categoria;
