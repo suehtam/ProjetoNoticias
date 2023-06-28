@@ -4,25 +4,25 @@ var noticias = [
         categoria: "Esportes",
         titulo: "Brasil vence a Argentina na final da Copa América",
         texto: "Em uma partida emocionante, a seleção brasileira de futebol conquistou o título da Copa América ao derrotar a Argentina por 2 a 1 no Maracanã. Os gols foram marcados por Neymar e Gabriel Jesus, enquanto Messi descontou para os argentinos.",
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Neymar_2018.jpg/800px-Neymar_2018.jpg"
+        imagem: "https://1.bp.blogspot.com/_C7KRTGyXPEs/TJwQfkzA5LI/AAAAAAAAAwY/4zF3yvYstxs/s1600/Bola+na+rede.jpeg"
     },
     {
         categoria: "Política",
         titulo: "Presidente anuncia novo pacote de medidas econômicas",
         texto: "O presidente da República anunciou hoje um novo pacote de medidas econômicas para enfrentar a crise causada pela pandemia de Covid-19. Entre as medidas estão a prorrogação do auxílio emergencial, a redução de impostos e o aumento do investimento público.",
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jair_Bolsonaro_em_12_de_novembro_de_2019_%28cropped%29.jpg/800px-Jair_Bolsonaro_em_12_de_novembro_de_2019_%28cropped%29.jpg"
+        imagem: "https://th.bing.com/th/id/R.4f3483102a2d73574595642e72093375?rik=MGIYBFMF0n1I6w&riu=http%3a%2f%2fwww.stw.tur.br%2fturismo%2fimagens%2fbrasilia03.jpg&ehk=S%2bfYmnvwkbhQtRt4mwz8uzUeCzViJHpNfLVcrPXoxQM%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         categoria: "Saúde",
         titulo: "Vacinação contra Covid-19 avança no país",
         texto: "A vacinação contra Covid-19 avança no país, com mais de 100 milhões de doses aplicadas até o momento. Segundo o Ministério da Saúde, cerca de 30% da população já recebeu pelo menos uma dose da vacina, e 15% já está totalmente imunizada.",
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Vacina%C3%A7%C3%A3o_contra_a_Covid-19_no_Brasil_%281%29.jpg/800px-Vacina%C3%A7%C3%A3o_contra_a_Covid-19_no_Brasil_%281%29.jpg"
+        imagem: "https://www.abcdaenfermagem.com.br/wp-content/uploads/2021/08/cruz-vermelha-na-enfermagem-150x150.jpeg"
     },
     {
         categoria: "Educação",
         titulo: "Enem 2023 tem data definida",
         texto: "O Ministério da Educação divulgou hoje a data do Exame Nacional do Ensino Médio (Enem) de 2023. As provas serão realizadas nos dias 5 e 12 de novembro, em todo o território nacional. As inscrições estarão abertas entre 1º e 31 de agosto.",
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Enem_2019_-_Exame_Nacional_do_Ensino_M%C3%A9dio_%2848948663682%29.jpg/800px-Enem_2019_-_Exame_Nacional_do_Ensino_M%C3%A9dio_%2848948663682%29.jpg"
+        imagem: "https://th.bing.com/th/id/OIP.18GUfPdQgvVp9g5XV6zw6wAAAA?pid=ImgDet&rs=1"
     }
 ];
 

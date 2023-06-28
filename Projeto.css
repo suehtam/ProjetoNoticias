@@ -1,18 +1,43 @@
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    background-color: pink;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+}
 /* Definindo as cores das categorias */
 .esportes {
     background-color: #f0ad4e;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .politica {
     background-color: #5bc0de;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .saude {
     background-color: #5cb85c;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .educacao {
     background-color: #d9534f;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 /* Definindo o estilo do cabeçalho */
@@ -94,4 +119,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    background-color: pink;
+    border-radius: 10px;
+    font-weight: bold;
 }
