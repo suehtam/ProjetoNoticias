@@ -67,7 +67,7 @@ function criarNoticia(noticia) {
 
     // Criando o elemento img que vai conter o ícone de compartilhar
     var imgCompartilhar = document.createElement("img");
-    imgCompartilhar.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Share_icon.svg/1200px-Share_icon.svg.png";
+    imgCompartilhar.src = "https://blog.addthiscdn.com/wp-content/uploads/2015/11/share-150x150.png";
 
     // Criando o elemento span que vai conter o texto de compartilhar
     var spanCompartilhar = document.createElement("span");
