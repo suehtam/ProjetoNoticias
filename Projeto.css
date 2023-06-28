@@ -1,5 +1,4 @@
-h1
-{
+h1 {
     text-align: center;
     font-weight: bold;
     background-color: pink;
@@ -7,6 +6,7 @@ h1
     width: fit-content;
     height: fit-content;
 }
+
 /* Definindo as cores das categorias */
 .esportes {
     background-color: #f0ad4e;

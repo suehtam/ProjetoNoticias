@@ -172,22 +172,22 @@ function comentarNoticia(noticia, comentario) {
     // Criando o elemento h4 que vai conter o título dos comentários
     var h4Comentarios = document.createElement("h4");
     h4Comentarios.textContent = "Comentários";
-    }
+}
 
-    // Anexando o elemento h4 ao elemento div dos comentários
-    divComentarios.appendChild(h4Comentarios);
+// Anexando o elemento h4 ao elemento div dos comentários
+divComentarios.appendChild(h4Comentarios);
 
-    // Percorrendo o array de comentários da notícia e criando os elementos p para cada comentário
-    for (var i = 0; i < noticia.comentarios.length; i++) {
-        var comentario = noticia.comentarios[i];
-        var pComentario = document.createElement("p");
-        pComentario.textContent = comentario;
-        // Anexando o elemento p ao elemento div dos comentários
-        divComentarios.appendChild(pComentario);
-    }
+// Percorrendo o array de comentários da notícia e criando os elementos p para cada comentário
+for (var i = 0; i < noticia.comentarios.length; i++) {
+    var comentario = noticia.comentarios[i];
+    var pComentario = document.createElement("p");
+    pComentario.textContent = comentario;
+    // Anexando o elemento p ao elemento div dos comentários
+    divComentarios.appendChild(pComentario);
+}
 
-    // Anexando o elemento div dos comentários ao elemento div da notícia
-    divNoticia.appendChild(divComentarios);
+// Anexando o elemento div dos comentários ao elemento div da notícia
+divNoticia.appendChild(divComentarios);
 
 // Definindo uma função para buscar uma notícia por palavra-chave
 function buscarNoticia() {
@@ -210,6 +210,6 @@ function buscarNoticia() {
 }
 
 // Chamando a função de exibir as notícias na página ao carregar o documento
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     exibirNoticias(noticias);
 });
